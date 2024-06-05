@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+header{
+    padding: 10px 0;
+    background-color: rgb(213, 213, 241);
+    border-bottom: 1px solid #071414;
+}
+
+h1{
+    text-align: center;
+}
+
+.subcontainer{
+    display: flex;
+    height: 100vh;
+}
+
+nav{
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 400px;
+}
+
+nav p{
+    margin-left: 93px;
+    text-align: left;
+}
+
+article{
+    padding: 40px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('musician-7300353_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{ 
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ddd;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+header p{
+    border-bottom: 1px solid #ddd;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.bio{
+    padding: 20px;
+    font-size: 1em;
+    line-height: 1.6em;
+   
+}
+
+.timeline{
+    margin-top: 0;
+    text-align: right;
+}

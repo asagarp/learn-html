@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('landing page.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    background-color: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.2));
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 18vh;
+    width: 100vw;
+    color: #fff;
+}
+
+.logo{
+   font-size: 2em;
+   letter-spacing: 2px;
+}
+
+.headerPart a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.register a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(123, 218, 235);
+    border-radius: 15px;
+}
+
+.subcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.subcontainer span{
+    letter-spacing: 5px;
+}
+
+.subcontainer h1{
+    font-size: 3.5em;
+}
+
+.subcontainer a{
+    text-decoration: none;
+    background-color: rgb(123, 218, 235);
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+
+.headerPart a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid rgb(123, 218, 235);
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+.container{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+h1{
+    padding-bottom: 5px;
+}
+
+h4{
+    padding-top: 25px;
+}
+
+header p{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+label{
+    display: block;
+}
+
+input[type="text0"]{
+    width: 300px;
+    padding: 3px;
+}
+
+input[type="text00"]{
+    width: 90px;
+    padding: 3px;
+}
+
+.name ,.address ,.email ,.phone{
+    display: flex;
+}
+
+
+input[type="text1"],
+input[type="text2"],
+input[type="text3"]{
+    width: 450px;
+    padding: 3px;
+}
+
+input[type="text4"],
+input[type="text5"],
+input[type="text6"]{
+    width: 500px;
+    padding: 40px;
+}
