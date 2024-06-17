@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url('C:\Users\DELL\Desktop\learn HTML\course\Day12\');
+    background-size:cover;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items:center;
+    padding:0px 40px;
+}
+.logo{
+    font-size: 30px;
+    color:orange;
+}
+.nav{
+    position: relative;
+    left:-180px;
+}
+a{
+    padding:5px 15px;
+    color:orange;
+    font-size: 20px;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+    text-underline-position:under;
+}
+.search{
+    font-size: 25px;
+}
+.search i{
+    padding:5px 20px;
+}
+
+.contact{
+    display: flex;
+    gap: 10vw;
+    margin: 8vh 15vw;
+    height: 50vh;
+    padding: 10vh 8vw ;
+    border-radius: 35px;
+    background-color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.business{
+    height: 20vh;
+    width: 11.26vw;
+    border-radius: 50%;
+    background-color: lightgreen;
+    border-style: none;
+}
+
+.business h2{
+    font-size: 3em;
+}
+
+.keihoina{
+    margin-top: 17vh;
+}
+
+.keihoina h1{
+    white-space: nowrap;
+    font-size: 3em;
+}
+
+.keihoina button{
+    padding: 1vh 2vw;
+    margin-top: 2vh;
+    border-radius: 15px;
+    border-style: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.k_garne{
+    display: flex;
+    margin-left: 4vh;
+    gap: 1.8vw;
+}
+
+.image{
+    margin-top: -14%;
+    line-height: 16vh;
+}
+
+span{
+    color: yellow;
+}
+
+.message,
+.locate,
+.phone{
+    height: 6vh;
+    width: 3.378vw;
+    border-radius: 50%;
+    background-color: lightgreen;
+    border-style: none;
+}
+
+.message i,
+.locate i,
+.phone i{
+    color: #1a1818;
+    font-size: 20px;
+}

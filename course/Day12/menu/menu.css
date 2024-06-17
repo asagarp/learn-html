@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url('./yhw2dnzl.bmp');
+    background-size:cover;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items:center;
+    padding:0px 40px;
+}
+.logo{
+    font-size: 30px;
+    color:orange;
+}
+.nav{
+    position: relative;
+    left:-207px;
+}
+a{
+    padding:5px 15px;
+    color:orange;
+    font-size: 20px;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+    text-underline-position:under;
+}
+.search{
+    font-size: 25px;
+}
+.search i{
+    padding:5px 20px;
+}
+
+/* pizza */
+.pizza,
+.burger,
+.kfc{
+    gap: 20px;
+    position: absolute;
+    display: flex;
+    padding: 15px;
+    height: 20vh;
+    width: 52.22vw;
+    background-color: orange;
+    border: 1px solid white;
+}
+
+.pizza{
+    margin: 40px 40px;
+}
+
+.burger{
+    margin: 230px 40px;
+}
+
+.kfc{
+    margin: 420px 40px;
+}
+
+
+.pizza  .burger  img{
+    position: relative;
+    height: 20vh;
+    width: 10vw;
+}
+
+.kfc img{
+    width: 15vw;
+}
+
+
+.order_pizza , .order_burger , .order_kfc {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+
+
+.order_pizza button,
+.order_burger button,
+.order_kfc button{
+    padding: 4px 15px;
+    background-color: darkgray;
+    border-style: none;
+    cursor: pointer;
+} 
+
+
+.cart{
+    position: relative;
+    padding-left: 20px;
+    top: 6vh;
+    left: 70%;
+    height: 30vh;
+    width: 15vw;
+    color: orange;
+    background-color: rgb(88, 17, 17);
+    border: 1px solid orange;
+}
+
+.cart img{
+    height: 22vh;
+    width: 13vw;
+}
+
+.cart h2,
+.cart p{
+    padding-left: 25px;
+}
